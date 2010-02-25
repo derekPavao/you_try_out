@@ -11,7 +11,7 @@ $public_key = '6Le1bAsAAAAAAJH7rqdK5XAqShio-rUl547yI3np';
 <html xmlns="http://www.w3.org/1999/xhtml">
 
 <head>
-<title>MoFoYouTryOut..com - Where Athletes Compete - Coming Spring 2010</title>
+<title>YouTryOut.com - Where Athletes Compete - Coming Spring 2010</title>
 <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
 <meta name="description" content="YouTryOut.com - Where Athletes Compete - Coming Spring 2010" />
 <meta name="keywords" content="YouTryOut.com - Where Athletes Compete - Coming Spring 2010" />
