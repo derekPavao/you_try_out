@@ -1,0 +1,310 @@
+/* -------- Author: Aaron M. Souza 2010 --------  */
+/* -------- Coded For Firefox, IE7, IE8, Chrome, Safari, Opera --------  */
+/* -------- Built with Notepad 6.0 --------  */
+
+*
+{
+margin: 0;
+padding: 0;
+}
+
+body		
+{
+margin: 0;
+padding: 0;
+color: #262626;
+text-align: center;
+font-family: arial,verdana,sans-serif;
+font-size: small;
+background: url('images/bodybg.jpg') repeat-x white bottom;
+}
+
+#wrapper
+	{
+	width: 950px;
+	margin: 0 auto;
+	text-align: center;
+	}
+
+/* -------- Header --------  */
+
+#header
+		{
+		width: 100%;
+		margin: 12px 0 0 0;
+		}
+
+/* -------- End Header --------  */
+
+/* -------- Subwrap --------  */
+
+#subwrap
+		{
+		text-align: left;
+		margin: 0;
+		}
+
+/* -------- Twitter Column --------  */
+
+#twitmainhold
+			{
+			width: 275px;
+			float: left;
+			}
+
+#tbuttonhold
+				{
+				clear: right;
+				}
+
+a#follow:link, a#follow:visited, a#follow:active
+					{
+					width: 154px;
+					height: 61px;
+					background: url('images/follow.jpg') no-repeat left 0;
+					display: block;
+					margin: 0;
+					padding: 0;
+					float: left;
+					}
+
+a#follow:hover, a#follow:focus
+					{
+					width: 154px;
+					height: 61px;
+					background: url('images/follow.jpg') no-repeat right 0;
+					display: block;
+					margin: 0;
+					padding: 0;
+					float: left;
+					}
+
+#drophold
+					{
+					width: 98px;
+					height: 25px;
+					float: right;
+					margin: 36px 0 0 0;
+					}
+
+a#tthis:link, a#tthis:visited, a#tthis:active
+						{
+						width: 98px;
+						height: 25px;
+						background: url('images/tweet.jpg') no-repeat left 0;
+						display: block;
+						margin: 0;
+						padding: 0;
+						}
+
+a#tthis:hover, a#tthis:focus
+						{
+						width: 98px;
+						height: 25px;
+						background: url('images/tweet.jpg') no-repeat right 0;
+						display: block;
+						margin: 0;
+						padding: 0;
+						}
+
+#drophold div
+						{	
+						position: absolute;
+						visibility: hidden;
+						width: 547px;
+						height: 93px;
+						float: right;
+						margin: 0 0 0 104px;
+						border: 6px solid black;
+						padding: 0;
+						background: url('images/dropbg.jpg') white no-repeat 0 0;
+						}
+
+#widhold
+				{
+				width: 100%;
+				clear: left;
+				margin: 0;
+				padding: 14px 0 0 0;
+				}
+
+/* -------- End Twitter Column --------  */
+
+/* -------- Text Column --------  */
+
+#texthold
+			{
+			width: 360px;
+			float: left;
+			text-align: justify;
+			margin: 40px 0 0 0;
+			padding: 0;
+			font-weight: bold;
+			}
+
+p
+				{
+				font-size: 100%;
+				line-height: 115%;
+				margin: 0 0 10px 0;
+				padding: 0 12px 0 17px;
+				}
+
+p.introt
+				{
+				margin: 0 0 18px 0;
+				line-height: 150%;
+				font-size: 100%;
+				text-align:center;
+				}
+
+p.wrapup
+				{
+				font-weight: normal;
+				margin: 26px 0 0 0;
+				text-align: center;
+				}
+
+a.normal:link, a.normal:visited, a.normal:active
+					{
+					text-decoration: none;
+					color: #237f2a;
+					}
+
+a.normal:hover, a.normal:focus
+					{
+					text-decoration: underline;
+					color: #237f2a;
+					}
+
+#boldsp
+				{
+				width: 158px;
+				margin: 0 auto;
+				padding: 0;
+				text-align: center;
+				}
+
+table#sports
+				{
+				width: auto;
+				margin: 0 auto 4px auto;
+				border-top: 2px solid black;
+				border-bottom: 2px solid black;
+				padding: 0;
+				text-align: center;
+				font-weight: normal;
+				}
+
+td.eachsport
+					{
+					text-align: left;
+					padding: 0 8px;
+					}
+
+td.spacer
+					{
+					width: 40px;
+					}
+
+/* -------- End Text Column --------  */
+
+/* -------- Beta Form --------  */
+
+#formhold
+			{
+			width: 300px;
+			float: left;
+			margin: 48px 0 0 0;
+			}
+
+#formcontain
+				{
+				width: 100%;
+				margin: 14px auto 0 auto;
+				text-align: center;
+				}
+
+input.widebar
+					{
+					width: 280px;
+					height: 32px;
+					margin: 0 0 14px 0;
+					padding: 0 0 0 5px;
+					color: #767676;
+					font-size: 150%;
+					line-height: 120%;
+					}
+
+input.widebarbott
+					{
+					width: 280px;
+					height: 32px;
+					margin: 0;
+					padding: 0 0 0 5px;
+					color: #767676;
+					font-size: 150%;
+					line-height: 120%;
+					}
+
+p.clause
+					{
+					font-size: 60%;
+					text-align: left;
+					color: #616161;
+					float: left;
+					clear: left;
+					margin: 0;
+					padding: 0 0 0 8px;
+					line-height: 130%;
+					}
+
+#signup
+					{
+					width: 214px;
+					margin: 0 auto;
+					padding: 4px 0 0 0;
+					text-align: center;
+					}
+
+/* -------- End Beta Form --------  */
+
+/* -------- Flash Div ----------- */
+
+#flash_messages_container {
+   background: #b2e9af;
+   border: 1px solid black;
+   margin-bottom: 10px;
+   font-size: 110%;
+
+}
+
+#flash_messages_container ul {
+   margin: 0 auto;
+   text-align: left;
+   width: 90%;
+   padding: 10px 10px 10px 20px;
+   list-style: none;
+}
+
+#flash_messages_container li {
+   margin-bottom: 2px;
+}
+
+/*--------- End flash div --------*/
+
+/* -------- Footer --------  */
+
+#footer
+			{
+			width: 100%;
+			margin: 0 auto;
+			padding: 40px 0 70px 0;
+			font-size: 85%;
+			text-align: center;
+			clear: left;
+			}
+
+/* -------- End Footer --------  */
+
+/* -------- End Subwrap --------  */
